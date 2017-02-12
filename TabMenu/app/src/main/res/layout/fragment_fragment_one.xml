@@ -9,4 +9,20 @@
     android:layout_gravity="center"
     android:onClick="onClickButtonFragmentOneDetail"
     />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="16dp"
+            android:src="@android:drawable/ic_input_add"
+
+            />
+    </RelativeLayout>
+
 </LinearLayout>
